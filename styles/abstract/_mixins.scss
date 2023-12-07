@@ -1,0 +1,18 @@
+@mixin margem-central($width) {
+    margin: 0 auto;
+    width: $width;
+}
+
+@mixin flex-box($direcao, $justifyC, $alignI) {
+    display: flex;
+    flex-direction: $direcao;
+    justify-content: $justifyC;
+    align-items: $alignI;
+}
+
+@mixin fonte-style($tamanho, $familia, $peso, $cor) {
+    font-size: $tamanho;
+    font-family: $familia;
+    font-weight: $peso;
+    color: $cor;
+}

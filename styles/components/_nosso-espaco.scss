@@ -1,0 +1,25 @@
+@use '../abstract/mixins';
+
+#nosso-espaco {
+    @include mixins.margem-central(80%);
+
+    .detalhes {
+       display: inline-flex;
+       width: 100%;
+       align-items: center;
+       justify-content: space-around;
+       gap: 2rem;
+
+       .imgs-espaco {
+        max-width: 500px;
+       }
+       
+       .espaco-textos {
+        @extend .imgs-espaco;
+
+        .separador {
+            width: 100%;
+        }
+       }
+    }
+}

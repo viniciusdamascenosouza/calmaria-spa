@@ -27,7 +27,64 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  color: #0c0421;
-  font-weight: 500;
+  font-size: 22px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #0c0421;
+}
+header #home {
+  max-width: 1040px;
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header #home .textos-home {
+  max-width: 464px;
+}
+header #home .textos-home h1 {
+  font-size: 42px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
+  margin-bottom: 2rem;
+}
+header #home .textos-home h1 span {
+  color: #4e75ff;
+}
+header #home .textos-home .btn-main {
+  border: none;
+  border-radius: 40px;
+  background: #4e75ff;
+  padding: 16px 32px;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+}
+header #home .img-home {
+  max-width: 474px;
+}
+header #home .img-home img {
+  width: 100%;
+}
+
+#nosso-espaco {
+  margin: 0 auto;
+  width: 80%;
+}
+#nosso-espaco .detalhes {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+#nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
+  max-width: 500px;
+}
+#nosso-espaco .detalhes .espaco-textos .separador {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
