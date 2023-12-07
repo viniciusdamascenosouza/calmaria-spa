@@ -1,25 +1,39 @@
-@use '../abstract/mixins';
-
+@use "../abstract/mixins";
+@use "../abstract/variaveis";
 #nosso-espaco {
     @include mixins.margem-central(80%);
-
+    
     .detalhes {
-       display: inline-flex;
-       width: 100%;
-       align-items: center;
-       justify-content: space-around;
-       gap: 2rem;
+        display: inline-flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+        padding: 2rem 0;
 
-       .imgs-espaco {
-        max-width: 500px;
-       }
-       
-       .espaco-textos {
-        @extend .imgs-espaco;
-
-        .separador {
-            width: 100%;
+        .imgs-espaco {
+            max-width: 500px;
         }
-       }
+
+        .espaco-textos {
+            @extend .imgs-espaco;
+
+            .separador {
+                width: 100%;
+            }
+
+            .titulo {
+                @include mixins.fonte-style(31px, variaveis.$ft-titulos, 400, variaveis.$cor-secundaria);
+            }
+
+            .infos {
+                @include mixins.fonte-style(22px, variaveis.$ft-textos, 400, variaveis.$cor-primaria);
+            }
+        }
+
+        &:nth-child(2) {
+            // @extend .detalhes;
+            flex-direction: row-reverse;
+        }
     }
 }

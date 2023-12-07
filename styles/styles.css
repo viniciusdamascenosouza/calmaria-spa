@@ -81,10 +81,26 @@ header #home .img-home img {
   align-items: center;
   justify-content: space-around;
   gap: 2rem;
+  padding: 2rem 0;
 }
 #nosso-espaco .detalhes .imgs-espaco, #nosso-espaco .detalhes .espaco-textos {
   max-width: 500px;
 }
 #nosso-espaco .detalhes .espaco-textos .separador {
   width: 100%;
+}
+#nosso-espaco .detalhes .espaco-textos .titulo {
+  font-size: 31px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  color: #4e75ff;
+}
+#nosso-espaco .detalhes .espaco-textos .infos {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
+}
+#nosso-espaco .detalhes:nth-child(2) {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=styles.css.map */
