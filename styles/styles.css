@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background: linear-gradient(180deg, #E8F5C8, #FFFFFF 96.87%);
+  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
   padding: 2rem;
 }
 header nav {
@@ -15,7 +15,7 @@ header nav {
   gap: 1.6rem;
 }
 header nav .linha {
-  border-top: 1px solid black;
+  border-top: 1px solid #000;
   width: 80%;
 }
 header nav ul {
@@ -27,7 +27,7 @@ header nav ul li {
 }
 header nav ul li a {
   text-decoration: none;
-  color: #0C0421;
+  color: #0c0421;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }/*# sourceMappingURL=styles.css.map */
