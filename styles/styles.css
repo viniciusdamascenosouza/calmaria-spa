@@ -157,4 +157,11 @@ header #home .img-home img {
   font-weight: 400;
   color: #0c0421;
   line-height: 130%;
+}
+#desconto .desconto-form .input-btn {
+  width: 790px;
+  height: 65px;
+  border: 1px solid #4e75ff;
+  border-radius: 65px;
+  margin: 0 auto;
 }/*# sourceMappingURL=styles.css.map */
