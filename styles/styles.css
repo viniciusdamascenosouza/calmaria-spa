@@ -164,4 +164,25 @@ header #home .img-home img {
   border: 1px solid #4e75ff;
   border-radius: 65px;
   margin: 0 auto;
+  display: inline-flex;
+}
+#desconto .desconto-form .input-btn input {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
+  width: 513.5px;
+  border: none;
+  outline: none;
+  margin-left: 2rem;
+}
+#desconto .desconto-form .input-btn button {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #FFF;
+  width: 276.5px;
+  background: #4e75ff;
+  border-radius: 0 65px 65px 0;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */
