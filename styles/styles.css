@@ -103,4 +103,34 @@ header #home .img-home img {
 }
 #nosso-espaco .detalhes:nth-child(2) {
   flex-direction: row-reverse;
+}
+
+#servico {
+  background: linear-gradient(180deg, #e8f5c8 0%, #ffffff 96.87%);
+  padding: 5rem 0;
+}
+#servico .cards {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  gap: 1.5rem;
+}
+#servico .cards .card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) 0%, rgba(202, 212, 250, 0.3) 100%);
+  padding: 1rem 1.5rem;
+  border-radius: 32px;
+  border: 2px solid #FFF;
+  text-align: center;
+}
+#servico .cards .card-titulo {
+  font-size: 26px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
+}
+#servico .cards .card-texto {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
 }/*# sourceMappingURL=styles.css.map */
