@@ -1,0 +1,21 @@
+@use "../abstract/variaveis";
+@use "../abstract/mixins";
+
+
+#desconto {
+    @include mixins.flex-box(none, space-between, center);
+
+    .desconto-form {
+        text-align: center;
+
+        h4 {
+            @include mixins.fonte-style(31px, variaveis.$ft-titulos, 400, variaveis.$cor-primaria);
+            line-height: 100%
+        }
+
+        p {
+            @include mixins.fonte-style(22px, variaveis.$ft-textos, 400, variaveis.$cor-primaria);
+            line-height: 130%;
+        }
+    }
+}

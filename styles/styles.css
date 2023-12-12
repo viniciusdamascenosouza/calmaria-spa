@@ -133,4 +133,28 @@ header #home .img-home img {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   color: #0c0421;
+}
+
+#desconto {
+  display: flex;
+  flex-direction: none;
+  justify-content: space-between;
+  align-items: center;
+}
+#desconto .desconto-form {
+  text-align: center;
+}
+#desconto .desconto-form h4 {
+  font-size: 31px;
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
+  line-height: 100%;
+}
+#desconto .desconto-form p {
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0c0421;
+  line-height: 130%;
 }/*# sourceMappingURL=styles.css.map */
